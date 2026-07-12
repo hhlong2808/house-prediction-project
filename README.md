@@ -3,7 +3,7 @@
 ## 1. Problem Description
 This project aims to predict house prices in Tehran based on property size, number of rooms, available amenities (parking, warehouse, and elevator), and location using a **Linear Regression** model.
 
-**Dataset:** [House Price Prediction Dataset - Kaggle](link)
+**Dataset:** [House Price (Tehran, Iran)](https://www.kaggle.com/datasets/mokar2001/house-price-tehran-iran)
 
 ---
 
