@@ -8,26 +8,33 @@ This project aims to predict house prices in Tehran based on property size, numb
 ---
 
 ## 2. Project Structure
-data/
-├── raw.csv
-└── house_prices_clean.csv
+
+```text
+house-price-prediction/
+│
+├── data/
+│   ├── raw.csv
+│   └── house_prices_clean.csv
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb                       # khám phá + làm sạch dữ liệu
-│   └── 02_modeling.ipynb                  # load model, đánh giá, vẽ biểu đồ
+│   ├── 01_eda.ipynb                 # Exploratory data analysis
+│   └── 02_modeling.ipynb            # Model training and evaluation
 │
 ├── src/
-│   ├── data_preprocessing.py  
-│   └── train.py   
+│   ├── data_preprocessing.py
+│   └── train.py
 │
 ├── models/
-│   └── linear_regression_best.pkl 
+│   └── linear_regression_best.pkl
 │
-├── images/    
-    ├── actual_vs_predicted.png
-    ├── residual_plot.png
-    └── feature_coefficients.png
----
+├── images/
+│   ├── actual_vs_predicted.png
+│   ├── residual_plot.png
+│   └── feature_coefficients.png
+│
+├── requirements.txt
+└── README.md
+```
 
 ## 3. Installation
 
